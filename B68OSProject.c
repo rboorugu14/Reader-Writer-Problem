@@ -58,11 +58,15 @@ scanf("%d",&n);
 if(m<0 || n<0)
 {
 printf("\nYou have entered NEGATIVE values\nPlease enter POSITIVE values\n");
+m=0;
+n=0;
 main();
 }
 if(m==0 || n==0)
 {
 printf("\nYou have entered 0 number of threads\nPlease enter threads more than 0\n");
+m=0;
+n=0;
 main();
 }
 for(i=1;i<=m;i++)
